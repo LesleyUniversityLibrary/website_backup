@@ -102,7 +102,7 @@ body { padding-left:0; padding-right:0; }
 #navbarLogo {display:inline-flex;vertical-align:middle;width:65%;border-right:2px solid #53565a;padding-right:.5em;}
 #navbarLeftContainer {width:33%;display:inline-flex;vertical-align:middle;padding-left:.5em; align-self:center;} 
 #navbarLeftContainer h2 {text-transform: uppercase;font-family: neue-haas-grotesk-display,sans-serif;font-size:2rem;color:#333; margin:10px 0;}
-/*#navbarRight {float:right; width:50%;}*/
+#navbarLeftContainer a:focus, #navbarLeftContainer a:hover {color:#333!important;font-weight:600!important;text-decoration:none;border-bottom:2px solid #3adc79;}
 #navbarRight {width:50%;display:inline-flex;vertical-align:middle;flex-direction:row-reverse;}
 #leftmenu { left: -16.2em; }
 svg {display:inline-block;vertical-align:middle;}
