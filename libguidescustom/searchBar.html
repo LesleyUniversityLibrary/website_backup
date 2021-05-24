@@ -1,0 +1,65 @@
+<!-- BEGIN: SEARCH BLASTER -->
+<!-- Copy and paste into the template for LibGuides homepage-->
+<style>
+.s-lib-box .s-lib-box-title {
+  margin-top:.7rem;
+  color:#53565a;
+}
+
+.s-lib-box { margin: 0 0 1.2rem; }
+
+.s-lib-box-content { padding: 1rem 1rem 0 1rem; }
+
+#menucontent {
+line-height: 1.6em;
+font-size: 1.25em;
+margin: .2em .7em;
+padding: .5em;
+}
+.search_blaster_footer {margin-top: 1rem;}
+.search_blaster_footer_item {margin-right: 1em;color:#53565a;font-family:neue-haas-grotesk-text;}
+#searchBarFooter .search_blaster_footer_item a:focus, #searchBarFooter .search_blaster_footer_item a:hover {border-bottom: 1px solid;}
+
+</style>
+
+<section id="search_blaster">
+<div class="">
+  <div class="row">
+    <div class="col-md-12">
+       <form id="search_blaster_form" action="https://search.ebscohost.com/login.aspx" method="get">
+        <!--use the "post" method when EBSCO SSO servers go down and authtype=sso doesn't validate-->
+     <!--  <form id="search_blaster_form" action="https://ezproxyles.flo.org/form?qurl=https://search.ebscohost.com/login.aspx" method="post">-->
+          <input name="custid" type="hidden" value="s5702506"><input name="direct" type="hidden" value="true">
+          <input name="scope" type="hidden" value="site"> <input name="site" type="hidden" value="eds-live">
+          <input name="profid" type="hidden" value="eds">
+          <input name="groupid" type="hidden" value="main">
+          <!-- Authentication type -->
+          <input name="authtype" type="hidden" value="sso">
+          <!-- Limiter: Full Text and catalog by default-->
+          <input name="cli0" type="hidden" value="FT1">
+          <input name="clv0" type="hidden" value="Y">
+          <!-- Search box and Submit button -->
+          <div id="search_blaster_input" class="input-group input-group-lg">
+          <input type="text" class="form-control" id="search_blaster_query" name="bquery" aria-label="All Search library search bar" placeholder="All library resources..." tabindex="0">
+            <div class="input-group-btn">
+              <button id="search_blaster_search_button" title="search the library catalog" class="btn btn-primary" type="submit" value="Search" tabindex="0"><span class="glyphicon glyphicon-search"></span>
+              </button>
+            </div> <!-- End .input-group-btn -->
+          </div> <!-- End #search_blaster_input and .input-group input-group-lg  -->
+          <div class="search_blaster_footer">
+              <strong>
+              <a class="search_blaster_footer_item" id="first" href="https://search.ebscohost.com/login.aspx?authtype=sso&custid=s5702506&profid=eds&groupid=main" tabindex="0">
+                Advanced Search
+              </a>
+              </strong>
+              <a class="search_blaster_footer_item" id="second" href="https://research.lesley.edu/selfservice/searching" tabindex="0">How do I search?</a>
+              <a class="search_blaster_footer_item" id="third" href="https://search.ebscohost.com/login.aspx?authtype=ip,guest&custid=s5702506&profid=eds&groupid=main" tabindex="0">Guest access</a> 
+
+          </div>
+        </form> <!-- End of #search_blaster_form -->
+    </div> <!-- End of .col-md-12 -->
+  </div>  <!--End of .row -->
+</div>
+</section>
+<!-- END: #search_blaster -->
+<div id="libchat_1d31e00c60717a1ccfc0151edc0f2ae8"></div><script type="text/javascript" src="https://v2.libanswers.com/load_chat.php?hash=1d31e00c60717a1ccfc0151edc0f2ae8"></script>

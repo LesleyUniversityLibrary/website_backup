@@ -1,0 +1,40 @@
+<style>
+#s-lg-col-1{ width: 100%; }
+
+a { color:#333;}
+
+.s-lib-box-std .s-lib-box-title{ border-bottom:0px !important; }
+
+.fa-comment-alt {font-size:5rem;}
+
+#s-lg-guide-name { display: none; }
+
+#s-lg-guide-tabs-title-bar { border-top: 0; }
+
+h1#s-lg-guide-name { margin: 0; }
+
+.s-lib-box.s-lib-box-std { background: transparent; }
+
+.s-lib-box .s-lib-box-title { background: transparent; }
+
+#second_row { padding-top: 1em; padding-bottom: 1em; }
+
+
+#s-lg-col-4{ padding: 0px 50px; }
+
+@media (min-width:768px) { 
+	#first_row { background-color: #aaa; background-image: url("https://libapps.s3.amazonaws.com/accounts/155330/images/getfile_id_497.jpg"); padding-top: 40px; padding-bottom: 40px; } 
+	#s-lg-row-1 { background: rgba(247,247,247,0.94); border-radius: 10px; } 
+  .navbar { margin-bottom: 0; } 
+  #s-lch-widget-10124 { display:none!important; } 
+#second_row .s-lib-box-title, #third_row .s-lib-box-title{
+	padding: 5px 10px;
+	font-size:2.2rem!important;
+}}
+@media (max-width:47.93em){
+  #s-lg-row-1 {background:rgba(83,86,90,0.2); border-radius:10px;margin:0.5rem -0.5rem;}
+  .s-lib-box-content p {margin-bottom:0 !important;}
+  #second_row {padding-top:0 !important;padding-bottom:0!important;}
+  .s-lib-box {margin:0 !important;}
+}
+</style>

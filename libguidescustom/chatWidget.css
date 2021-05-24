@@ -1,0 +1,139 @@
+/* Research Help (Ask Us!) Chat Body Qualities */
+body {
+background-color: #f8f8f8 !important;
+}
+.s-la-widget { 
+  border: 1px solid #ccc;
+  padding:10px;
+}
+/* parking lot this for larger overhaul
+ * .s-la-widget {
+  border-style:inset;
+  border-width:3px;
+  border-color:#02945d;
+}*/
+.fa-envelope {
+  width: 1.28571428em !important;
+  text-align: center;
+}
+#s-lch-post-form {
+  border-top: 0px solid #f8f8f8 !important;
+}
+.s-lch-pane-header {
+  font-size: 1.25em !important;
+  border-bottom: 2px inset #02945d !important;
+  border-right: 2px inset #3adc79 !important;
+  line-height: 1em !important;
+}
+#s-lch-header-actions .btn:last-of-type {
+  margin-right: 0.75em;
+}
+#s-lch-header-actions .btn {
+  margin-right:0.75em;
+}
+.s-lch-pane header .s-lch-header-end { 
+  margin-left: 0;
+  }
+/* Chat Icons */
+i {
+   color: #000 !important;
+   text-decoration: none;
+}
+button {
+   background-color: #f8f8f8 !important;
+   color: white !important;
+   text-decoration: none;
+}
+.s-la-widget .btn-default {
+    color: #ccc !important;
+    background-color: #f8f8f8 !important;
+    /*border: 1px solid #ffffff80;*/
+    border-color: #999 !important;
+}
+#s-lch-post-submit {
+  background-color: #f8f8f8 !important;
+  border: 1px solid #ccc !important;
+  color: #000 !important;
+}
+#s-lch-post-submit:hover, #s-lch-post-submit:focus {
+  background-color: #02945d !important;
+  border: 1px solid #ccc !important;
+}
+.btn-default:hover, .btn-default:focus{
+    color: #004b44 !important;
+    background-color: #02945d !important;
+    border: 1px solid #999 !important;
+}
+
+/* fa-inverse is the outline color of rating icons */
+.fa-inverse {
+   color: white !important;
+}
+.s-la-widget a :hover,
+.s-la-widget a :focus {
+   color: #000 !important;
+   text-decoration: none;
+}
+
+/* Link Behavior */
+a {
+  color: #0064d5 !important;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+   color: #0064d5 !important;
+   decoration: underline;
+}
+/* This is the link for the idle message */
+.lci_sys a {color: blue !important;}
+
+/* Title Text */
+#connect_state,
+#offline_text,
+#byeMsg,
+h2.color_head {
+   color: #000 !important;
+   font-size: 1.2 em;
+   /*text-shadow: 2px 1px rgb(0,0,0,0.2) !important;*/
+}
+
+/*Body Text */
+
+.lci_offlinemsg,
+.control-label,
+p,
+#file_intro {
+   color:white !important;
+   text-shadow:2px 2px rgb(0,0,0,0.3);
+}
+
+/* misc. needs to be organized */
+
+#byeMsg,
+#star_text,
+.lci_offlinemsg h2,
+.control-label,
+#offline_text {
+   color: white !important;
+}
+
+.s-lch-msg {
+    background: white;
+    border-radius: 2px;
+}
+.s-lch-msg-sys .s-lch-msg-txt {
+    border-top: 0;
+    border-bottom: 0;
+}
+.s-lch-msg-patron .s-lch-msg-body {
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    padding: .25em .5em;
+    border-radius: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}

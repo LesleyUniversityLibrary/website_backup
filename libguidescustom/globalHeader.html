@@ -1,0 +1,75 @@
+<!-- use THIS BANNER for STUFF IS BROKEN alert -->
+<!--<div class="alert alert-dismissable" id="alert_banner" tabindex="0" style="background-color:#ffae00">
+<h3><span style="color:#000"><span style="font-size:12px;"><a aria-label="close alert banner" class="close_banner" data-dismiss="alert" href="#">&times;</a></span>
+<strong>ALERT MM/DD/YYYY:</strong> Something is broken! Please <strong><a href="https://research.lesley.edu/asklib">contact us</a></strong> with questions.</h3></span>
+</div>-->
+<!--use THIS BANNER for regular COVID announcement -->
+<!--<div class="alert" tabindex="0">
+<h3><a aria-label="close alert banner" class="close_banner" data-dismiss="alert" href="#">&times;</a>
+<strong>Spring 2021:</strong> Sherrill and Moriarty Library are closed as part of the Lesley University <a href="https://lesley.edu/students/health-wellness-safety/coronavirus-disease-2019-covid-19-information" target="_blank">COVID-19</a> response. We're available through our website, <strong><a href="https://research.lesley.edu/asklib">Ask-A-Librarian service</a></strong>, and other<strong> <a href="https://research.lesley.edu/remoteservices2021">Remote Services</a></strong>.</h3>
+</div>-->
+<div id="global_header">
+	<nav class="navbar navbar-default">
+	<div id="navbarLeft" class="navbar-collapse"> 
+		<h1>
+		<div id="navbarLogo"><a href="https://www.lesley.edu" tabindex="0">
+			<svg style="height: auto; width:100%" viewBox="0 0 707 195" xmlns="https://www.w3.org/2000/svg"><title>Lesley University | Home</title><g fill="none" fill-rule="evenodd"><path d="M311.5 20.9v12.9h-15v73.9h17c12 0 14.5-3 21.1-28.3h12v41.2h-88.3v-13.2h13.6V34.1h-13.6V20.9h53.2zM375.6 88c.9 16.5 7.6 22 18.8 22 8.5 0 13.8-3.5 17-12.4h11.8c-2.7 14.8-12.7 24.5-32.6 24.5-23.6 0-38-14.5-38-36.3 0-21.5 15.9-37.7 37.3-37.7 23.9 0 35.1 17 34.1 40h-48.4V88zm.1-9.5h26.5c-.8-14.4-4.7-20.1-12.9-20.1-7.8-.1-12.7 4.9-13.6 20.1zM431.3 95.9H443c6.2 9.5 14.8 16.1 23.5 16.1 6.4 0 9.2-2.9 9.2-7.3 0-5.5-3.9-7.6-18-11.2-17-4.4-25.3-9.8-25.3-22.6 0-12.4 10-22.9 25.7-22.9 9.2 0 15.9 3.5 20.3 8.8l2.4-8.5h11.8v24.2h-11.7c-5.5-8.5-12.7-14.4-20.3-14.4-5.9 0-8.9 2.7-8.9 6.8 0 5.1 4.1 7.1 17.6 10.6 15.4 4.1 25.9 9.1 25.9 23.2 0 12.3-9.5 23.3-26.8 23.3-11.1 0-18.5-4.5-23-9.7l-2.4 9.5h-11.7V95.9zM499.9 108h11.5V29h-11.5V16.1h33.7V108h11.6v12.6h-45.3zM570.9 88c.9 16.5 7.6 22 18.8 22 8.5 0 13.8-3.5 17-12.4h11.8c-2.7 14.8-12.7 24.5-32.6 24.5-23.6 0-38-14.5-38-36.3 0-21.5 15.9-37.7 37.3-37.7 23.9 0 35.1 17 34.1 40h-48.4V88zm.1-9.5h26.5c-.8-14.4-4.7-20.1-12.9-20.1-7.8-.1-12.6 4.9-13.6 20.1zM645.9 130.4c0 2-.5 4.1-1.2 5.6 6.2-.8 10-3.6 14.4-14.2l-28.5-59.5h-9.4V49.7h44.4v12.6h-10.8l15.9 37.1 14.2-37.1H676V49.7h31v12.6h-8.6l-24.2 56.3c-7.3 17.1-15.4 28.3-31.8 28.3-12.9 0-19.5-6.7-19.5-15.8 0-7.1 4.7-12.7 11.7-12.7 7.6.1 11.3 6.1 11.3 12" fill="#00A766"/><path d="M272 150.1h3.4V166c0 6.5 2.8 8.5 6.3 8.5 3.6 0 6.4-2.1 6.4-8.5v-15.9h3.3v15.8c0 8.7-4.1 11.6-9.7 11.6-5.5 0-9.7-3-9.7-11.6v-15.8zM313.6 150.1h3.5l9.7 16.9 2.9 5.6h.2c-.2-2.7-.4-5.8-.4-8.6v-13.9h3.2V177h-3.5l-9.8-17-2.9-5.5h-.2c.2 2.7.5 5.6.5 8.4V177h-3.2v-26.9zM355.2 150.1h3.4V177h-3.4zM377.3 150.1h3.7l4.3 14.5c1 3.2 1.6 5.8 2.6 8.9h.2c1-3.2 1.6-5.7 2.6-8.9l4.3-14.5h3.5L390 177h-4l-8.7-26.9zM417.1 150.1h15.6v2.9h-12.2v8.4h10.3v3h-10.3v9.7h12.6v2.9h-16zM468.5 177l-6.5-11.4h-4.9V177h-3.4v-26.9h8.4c5.5 0 9.4 2 9.4 7.6 0 4.2-2.4 6.7-6 7.6l6.8 11.7h-3.8zm-11.3-14.1h4.5c4.2 0 6.5-1.7 6.5-5.2s-2.3-4.8-6.5-4.8h-4.5v10zM492.1 171.2c1.9 2 4.6 3.4 7.4 3.4 3.5 0 5.6-1.8 5.6-4.4 0-2.8-1.9-3.6-4.5-4.8l-3.9-1.7c-2.5-1.1-5.5-3-5.5-6.9 0-4.1 3.6-7.1 8.5-7.1 3.2 0 6 1.4 8 3.3l-1.8 2.2c-1.6-1.6-3.6-2.5-6.1-2.5-3 0-5 1.5-5 3.9 0 2.6 2.3 3.6 4.5 4.5l3.8 1.6c3.1 1.4 5.5 3.2 5.5 7.2 0 4.3-3.5 7.7-9.2 7.7-3.8 0-7.1-1.6-9.4-4l2.1-2.4zM528.9 150.1h3.4V177h-3.4zM560.3 153h-8.1v-2.9h19.7v2.9h-8.1v24h-3.5zM595.5 166.6l-8.1-16.5h3.7l3.5 7.6c.9 2 1.7 3.9 2.6 5.9h.2c.9-2 1.9-3.9 2.7-5.9l3.4-7.6h3.6l-8.1 16.5V177h-3.4v-10.4h-.1z" fill="#87C879"/><path fill="#00A766" d="M77.2 0l20.5 19.9v40.2L77.2 40.9 0 116.2V77.5zM59.7 96l38 39.4v38.5l-59.4-57.7zM100.6 134.5l59.3-56.1-59.3-57.7L121 0l77.3 78.4-77.3 75.3z"/><path fill="#87C879" d="M97.7 60.1l-59.4 56.1 59.4 57.7-20.5 20.7L0 116.2l77.2-75.3zM121 194.6l-20.4-19.9v-40.2l20.4 19.2 77.3-75.3v38.7zM138.6 98.6l-38-39.4V20.7l59.3 57.7z"/></g></svg>
+      </a>
+		</div>
+		<div id="navbarLeftContainer"><h2>Library</h2></div>
+		</h1>
+	</div>
+	<div id="navbarRight" class="navbar-collapse" tabindex="-1">
+			<ul id="main_menu" class="nav navbar-nav" aria-hidden="false" role="menubar">
+        <li role="menuitem" class="dropdown" tabindex="-1" aria-label="Go to library homepage">
+          <span class="homeBtn"> <a class="dropdown-toggle" href="https://research.lesley.edu" aria-label="Go to library home"><i class="fas fa-home"></i></a></span>
+				</li>
+				<li role="menuitem" class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" tabindex="0">Resources<b class="caret"></b></a>
+						<ul class="dropdown-menu" data-test="true" aria-hidden="false" role="menu">
+							<li role="menuitem"><a href="https://research.lesley.edu/databases" tabindex="0">Databases</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/journals" target="_blank" tabindex="0">Journals</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/media-resources/streaming" tabindex="0">Streaming Media</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/images" tabindex="0">Images</a></li>
+							<li role="menuitem"><a href="https://endeavor.flo.org/vwebv/search?" target="_blank" tabindex="0">Books & Media (FLO Catalog)</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/digitalcommons" tabindex="0">DigitalCommons@Lesley  <i style="font-size:1rem; margin-right: -1em;" class="fa fa-external-link" aria-hidden="true"></i></a> </li>
+							<li role="menuitem"><a href="https://research.lesley.edu/selfservice/findsources" tabindex="0">Help Searching</a></li> 
+						</ul>
+					</li>
+					<li role="menuitem" class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">Services<b class="caret"></b></a>
+						<ul class="dropdown-menu" data-test="true" aria-hidden="false" role="menu">
+              <li role="menuitem"><a href="https://research.lesley.edu/asklib">Ask a Librarian</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/borrow" tabindex="0">Borrow & Request</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/borrow/reserves" tabindex="0">Course Reserves</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/borrow/ILL" tabindex="0">Interlibrary Loan (ILL)</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/guides" tabindex="0">Subject Guides</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/asklib/citation" tabindex="0">Citation Help</a></li>
+              <li role="menuitem"><a href="https://research.lesley.edu/digitalcommons_submit" tabindex="0">Theses & Dissertations</a></li>
+							<li role="separator" class="divider"></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/faculty" tabindex="0">Faculty & Staff Resources</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/alumni" tabindex="0">Alumni Resources</a></li>
+						</ul>
+					</li>
+					<li role="menuitem" class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">Research Help<b class="caret"></b></a>
+						<ul class="dropdown-menu" data-test="true" aria-hidden="false" role="menu">
+							<li role="menuitem"><a href="https://research.lesley.edu/selfservice" tabindex="0">Self-Service Portal</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/asklib" tabindex="0">Ask a Librarian</a></li>
+							<li role="menuitem" class="lad"><a href="https://research.lesley.edu/art/" tabindex="0">Art & Design Research</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/asklib/citation" tabindex="0">Citation Help</a></li>
+						</ul>
+					</li>
+					<li role="menuitem" class="dropdown" id="menu_last">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">About<b class="caret"></b></a>
+						<ul class="dropdown-menu" data-test="true" aria-hidden="false" role="menu">
+							<li role="menuitem"><a href="https://research.lesley.edu/contact" tabindex="0">Contact</a></li>
+							<li role="menuitem"><a href="https://research.lesley.edu/about/hours" tabindex="0">Hours & Locations</a></li>
+              <li role="menuitem"><a href="https://research.lesley.edu/about/directory" tabindex="0">Directory</a></li>
+              <li role="menuitem"><a href="https://research.lesley.edu/archives" tabindex="0">University Archives</a></li> 
+              <li role="menuitem"><a href="https://lesleyarchives.omeka.net" tabindex="0">Digital Exhibits</a></li>
+						</ul>
+					</li>
+			</div>
+	</nav>
+</div>
